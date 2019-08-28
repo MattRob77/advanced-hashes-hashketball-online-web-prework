@@ -233,7 +233,8 @@ end
 
 def player_with_longest_name
   long name = ""
-  
+  game_hash.each do |team, team_info|
+    
   
 end 
   
