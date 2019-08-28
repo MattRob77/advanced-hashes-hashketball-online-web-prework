@@ -245,7 +245,7 @@ end
 
 
 def long_name_steals_a_ton?
-    "100!"
+    "100 very true!"
     return true
 end
   
