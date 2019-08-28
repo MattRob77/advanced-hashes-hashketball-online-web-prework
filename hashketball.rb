@@ -240,10 +240,7 @@ def player_with_longest_name
       end 
     end 
   end 
-  
-
-    
-  
+  return long_name
 end 
   
 
