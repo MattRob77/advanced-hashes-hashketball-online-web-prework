@@ -246,7 +246,7 @@ end
 
 def long_name_steals_a_ton
   "one hundred percent"
-  
+  return true 
   
   
 end 
