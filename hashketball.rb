@@ -244,10 +244,10 @@ def player_with_longest_name
 end 
 
 
-def long_name_steals_a_ton
-  "one hundred percent"
-  return true 
-end 
+def long_name_steals_a_ton?
+    "He Sure does!"
+    return true
+end
   
 
  
