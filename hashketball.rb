@@ -221,9 +221,9 @@ end
 
 
 def winning_team
-     new_hash = {}
-    game_hash.each do |team, team_info|
-        new_hash[team_info[:team_name]] = team_info[:players].map do |player|
+  new_hash = {}
+  game_hash.each do |team, team_info|
+    new_hash[team_info[:team_name]] = team_info[:players]|player|
             player[:points]
         end.inject(0){|sum,num| sum + num }
     end
